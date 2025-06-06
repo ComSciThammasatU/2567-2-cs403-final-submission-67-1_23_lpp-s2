@@ -1,0 +1,95 @@
+.create-activity {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 45px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .create-activity h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: tomato;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .create-activity form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .create-activity label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .create-activity input,
+  .create-activity select,
+  .create-activity textarea {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+  }
+  
+  .create-activity textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .create-activity input:focus,
+  .create-activity select:focus,
+  .create-activity textarea:focus {
+    border-color: tomato;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(255, 99, 71, 0.2);
+    outline: none;
+  }
+  
+  .create-activity button {
+    padding: 16px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .create-activity button:hover {
+    background-color: #e04e3c;
+    transform: translateY(-1px);
+  }
+  
+  .create-activity button:active {
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .create-activity {
+      padding: 30px;
+      margin: 30px 16px;
+    }
+  
+    .create-activity h1 {
+      font-size: 28px;
+    }
+   
+  .bold-label {
+  font-weight: bold;  
+  }
+
+  }
+  
+  

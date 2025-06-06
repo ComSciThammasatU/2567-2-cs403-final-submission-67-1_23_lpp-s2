@@ -1,0 +1,114 @@
+/* ปรับปรุงการออกแบบพื้นฐาน */
+.event-detail-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.event-card {
+  width: 100%;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-detail-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.event-detail-img:hover {
+  transform: scale(1.05); /* เพิ่มเอฟเฟกต์การขยายรูปเมื่อ hover */
+}
+
+.event-details {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.event-details h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.event-details p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.register-button {
+  background-color: tomato;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: tomato;
+}
+
+.register-button:active {
+  transform: translateY(1px);
+}
+
+/* Popup Confirm */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-box h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.popup-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.popup-box button:hover {
+  background-color: tomato;
+}

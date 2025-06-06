@@ -1,0 +1,40 @@
+.question-builder input,
+.question-builder select {
+  margin-bottom: 24px;  /* เพิ่ม margin-bottom ให้เหมือนกับ input ใน create-activity */
+  width: 100%;
+  padding: 14px 18px;  /* เพิ่ม padding ให้เหมือนกัน */
+  font-size: 16px;
+  border-radius: 12px;  /* เพิ่ม border-radius ให้เหมือนกัน */
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.question-builder input:focus,
+.question-builder select:focus {
+  border-color: tomato;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(255, 99, 71, 0.2);
+  outline: none;
+}
+
+.question-builder button {
+  padding: 16px;  /* ใช้ padding เท่ากับใน create-activity */
+  background-color: tomato;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;  /* ใช้ border-radius เท่ากับ create-activity */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.question-builder button:hover {
+  background-color: #e04e3c;
+  transform: translateY(-1px);
+}
+
+.question-builder button:active {
+  transform: translateY(0);
+}

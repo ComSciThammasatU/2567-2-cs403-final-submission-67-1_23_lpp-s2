@@ -1,0 +1,11 @@
+.app-download {
+    margin: 100px auto;
+    font-size: max(2vw, 10px);
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+ }

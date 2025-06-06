@@ -1,0 +1,94 @@
+/* สไตล์สำหรับหน้าข้อมูลการลงทะเบียน */
+.registrations-page {
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registrations-page h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.registrations-page h3 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* ตารางข้อมูลการลงทะเบียน */
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.registration-table th, .registration-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.registration-table th {
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+}
+
+.registration-table td {
+  font-size: 16px;
+  color: #555;
+}
+
+/* ปรับแต่งรูปภาพ */
+.registration-table img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* รายการคำตอบแบบฟอร์ม */
+.registration-table ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.registration-table ul li {
+  margin-bottom: 5px;
+}
+
+/* ปรับแต่งปุ่มในตาราง */
+.registration-table .status-column {
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.registration-table .status-column.active {
+  background-color: #4caf50;
+}
+
+.registration-table .status-column.inactive {
+  background-color: #f39c12;
+}
+
+/* ข้อความเมื่อไม่มีข้อมูล */
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 20px;
+}

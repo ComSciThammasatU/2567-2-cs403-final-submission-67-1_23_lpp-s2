@@ -1,0 +1,48 @@
+.seminar-page {
+    padding: 20px;
+  }
+  
+  .seminar-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .seminar-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .seminar-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .seminar-info {
+    padding-top: 10px;
+  }
+  
+  .seminar-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .seminar-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .view-details-link {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+  }
+  
+  .view-details-link:hover {
+    text-decoration: underline;
+  }
+  

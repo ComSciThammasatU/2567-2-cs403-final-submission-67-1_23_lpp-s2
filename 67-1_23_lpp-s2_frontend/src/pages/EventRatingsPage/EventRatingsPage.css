@@ -1,0 +1,79 @@
+/* สไตล์สำหรับหน้ารีวิวกิจกรรม */
+.event-ratings-page {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อหลัก */
+.event-ratings-page h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ชื่อกิจกรรม */
+.event-ratings-page h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* สไตล์สำหรับรายการรีวิว */
+.rating-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating-item {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  color: #333;
+}
+
+/* สไตล์สำหรับข้อมูลผู้ใช้ */
+.rating-item strong {
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+/* สไตล์สำหรับคะแนน */
+.rating-item .rating {
+  font-size: 20px;
+  font-weight: bold;
+  color: #32ab0a;
+  margin-top: 10px;
+}
+
+/* ความคิดเห็น */
+.rating-item .comment {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+/* สไตล์กรณีที่ไม่มีคะแนน */
+.rating-list .no-ratings {
+  text-align: center;
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 20px;
+}
+.average-rating {
+  font-size: 1.2rem;
+  color: #198754;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

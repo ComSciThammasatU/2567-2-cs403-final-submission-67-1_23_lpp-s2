@@ -1,0 +1,108 @@
+/* ตั้งค่า Popup Overlay */
+.RatingPopup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* กล่อง Popup */
+  .RatingPopup-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* ชื่อหัวข้อใน Popup */
+  .RatingPopup-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* ดาวสำหรับให้คะแนน */
+  .RatingPopup-star-rating {
+    font-size: 40px;
+    color: #f39c12; /* สีทอง */
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .RatingPopup-star-rating .star {
+    margin: 0 5px;
+  }
+  
+  /* กล่องข้อความและปุ่ม */
+  .RatingPopup-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* ปุ่ม */
+  .RatingPopup-popup-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .RatingPopup-popup-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  /* ปุ่มส่งคะแนน */
+  .RatingPopup-popup-buttons button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .RatingPopup-popup-buttons button:first-child:disabled {
+    background-color: #ccc;
+  }
+  
+  /* ปุ่มยกเลิก */
+  .RatingPopup-popup-buttons button:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  /* ปุ่มลิงก์แบบสอบถาม */
+  .RatingPopup-button-orange {
+    background-color: #e67e22;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .RatingPopup-button-orange:hover {
+    background-color: #d35400;
+  }
+  
+  /* กล่องข้อความความคิดเห็น */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  

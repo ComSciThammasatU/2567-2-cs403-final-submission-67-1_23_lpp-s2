@@ -1,0 +1,95 @@
+/* เพิ่ม 'PopupQuestion-' เพื่อทำให้ class เฉพาะเจาะจงสำหรับ PopupQuestion */
+.PopupQuestion-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* ทำให้พื้นหลังโปร่งแสง */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.PopupQuestion-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.PopupQuestion-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.PopupQuestion-form {
+  margin-bottom: 15px;
+}
+
+.PopupQuestion-form p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.PopupQuestion-form input[type="text"], 
+.PopupQuestion-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.PopupQuestion-form input[type="radio"], 
+.PopupQuestion-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.PopupQuestion-form label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* ปรับปุ่มให้ขนาดเท่ากันและอยู่คนละบรรทัด */
+.PopupQuestion-buttons {
+  display: block;  /* ใช้ display: block เพื่อให้ปุ่มอยู่คนละบรรทัด */
+  width: 100%;  /* ให้ปุ่มยืดเต็มความกว้าง */
+}
+
+.PopupQuestion-button, .PopupQuestion-cancel-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* ปรับให้ปุ่มยืดเต็มความกว้าง */
+  margin-top: 10px; /* ให้มีระยะห่างระหว่างปุ่ม */
+}
+
+.PopupQuestion-button:hover {
+  background-color: #45a049;
+}
+
+.PopupQuestion-cancel-button {
+  background-color: #f44336;
+}
+
+.PopupQuestion-cancel-button:hover {
+  background-color: #e53935;
+}
+
+.PopupQuestion-button:disabled, .PopupQuestion-cancel-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}

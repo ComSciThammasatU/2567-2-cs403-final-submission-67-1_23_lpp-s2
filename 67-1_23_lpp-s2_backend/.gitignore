@@ -1,0 +1,28 @@
+# ไม่ติดตามโฟลเดอร์ node_modules
+node_modules/
+
+# ไม่ติดตามไฟล์ environment variables
+.env
+
+# ไม่ติดตาม log files
+*.log
+
+# ไม่ติดตามข้อมูล temp หรือไฟล์ชั่วคราว
+tmp/
+temp/
+*.tmp
+*.swp
+
+# ไม่ติดตามไฟล์ที่เกี่ยวข้องกับระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
+
+
+
+# ไม่ติดตาม build outputs
+dist/
+build/
+
+# ไม่ติดตามไฟล์ของ IDE เช่น VSCode
+.vscode/
+.idea/

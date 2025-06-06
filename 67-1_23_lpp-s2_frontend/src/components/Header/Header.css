@@ -1,0 +1,130 @@
+.header {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.4);
+    z-index: 1;
+  }
+  
+  .header-contents {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    max-width: 850px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .header-contents h1 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .header-contents p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .header-button {
+    display: inline-block;
+    padding: 14px 35px;
+    font-size: 16px;
+    background-color: #ff4c24;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .header-button:hover {
+    background-color: #e6401f;
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* 🔹 Responsive Layout */
+  @media (max-width: 992px) {
+    .header-contents h1 {
+      font-size: 2.5rem;
+    }
+  
+    .header-contents p {
+      font-size: 1.1rem;
+    }
+  
+    .header-button {
+      padding: 12px 28px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      height: 70vh;
+    }
+  
+    .header-contents h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header-contents p {
+      font-size: 1rem;
+    }
+  
+    .header-button {
+      padding: 10px 25px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      height: 60vh;
+    }
+  
+    .header-contents {
+      padding: 10px;
+    }
+  
+    .header-contents h1 {
+      font-size: 1.6rem;
+    }
+  
+    .header-contents p {
+      font-size: 0.95rem;
+    }
+  
+    .header-button {
+      padding: 10px 20px;
+      font-size: 13px;
+    }
+  }

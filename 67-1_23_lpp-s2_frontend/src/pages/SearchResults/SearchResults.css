@@ -1,0 +1,27 @@
+/* SearchResults.css */
+.search-results-page {
+  padding: 20px;
+}
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.result-item {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+}
+.result-details {
+  display: flex;
+  align-items: center;
+}
+.result-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+.result-title {
+  font-weight: bold;
+}
