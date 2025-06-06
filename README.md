@@ -30,7 +30,7 @@ cd 67-1_23_lpp-s2_code
 2. ตั้งค่าและรัน Backend และ .env
 - เข้าไปที่โฟลเดอร์ backend
 ```bash
-cd backend
+cd 67-1_23_lpp-s2_backend
 ```
 - ติดตั้ง Dependencies ทั้งหมด
 ```bash
@@ -50,7 +50,7 @@ npm run server
 3. ตั้งค่าและรัน Frontend
 - กลับไปที่โฟลเดอร์หลักของโปรเจกต์และเข้าไปที่โฟลเดอร์ frontend
 ```bash
-cd ../frontend
+cd ../67-1_23_lpp-s2_frontend
 ```
 - ติดตั้ง Dependencies ทั้งหมด
 ```bash
@@ -60,10 +60,4 @@ npm install
 ```bash
 npm run dev
 ```
-## API Endpoints (Backend)
-Backend API ถูกจัดโครงสร้างตามหลักการ RESTful เพื่อให้ Frontend สามารถโต้ตอบกับข้อมูลได้อย่างมีประสิทธิภาพ:
-- /api/users: จัดการการลงทะเบียนผู้ใช้, การเข้าสู่ระบบ (login), และการยืนยันตัวตน
-- /api/events: จัดการกิจกรรม (สร้าง, ดึงข้อมูลทั้งหมด, ดึงข้อมูลเฉพาะ, อัปเดต, ลบ)
-- /api/registers: จัดการการลงทะเบียนเข้าร่วมกิจกรรม
-- /api/rates: จัดการการให้คะแนนและรีวิวกิจกรรม
-- /images: ใช้สำหรับให้บริการรูปภาพที่อัปโหลดไว้ในโฟลเดอร์ uploads/
+
